@@ -1,0 +1,124 @@
+/* .sec{
+
+} */
+.gallerystart {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 20px; */
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    /* height: 100vh; */
+    /* margin-top: 50vh; */
+    /* position: relative; */
+    /* margin: 0px !important; */
+
+}
+
+/* .gallerystart>items>item{
+    display: flex;
+} */
+.gallerystart>.items {
+
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-auto-rows: 280px;
+    grid-auto-flow: dense;
+    grid-gap: 50px;
+    width: 100%;
+}
+
+.gallerystart>.items>.item {
+    position: relative;
+    margin: 30px;
+
+}
+
+.gallerystart>.items>.item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallerystart>.items>.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.9s;
+    user-select: none;
+    border-radius: 10px 100px / 120px 100px;
+
+}
+
+/* .gallerystart>.items> */
+.item a:hover img {
+    transform: rotate(5deg) scale(1.4);
+}
+
+@media(max-width: 768px) {
+    .items {
+        max-width: 100%;
+    }
+}
+
+.title {
+    margin-top: 100px;
+
+
+}
+
+.more {
+
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    /* text-decoration: none; */
+
+
+}
+
+.more a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.more a:hover {
+    color: #700f0f;
+}
+
+
+
+
+.bttn {
+    background-color: #620808;
+    border-radius: 100px;
+    /* background-image: linear-gradient(to top, #620808, #6f1a11, #7c2818, #8a361f, #974327); */
+    /* box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;; */
+    color: #ebafaf;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.bttn:hover {
+    /* box-shadow: */
+    background-image: linear-gradient(to top, #620808, #6f1a11, #7c2818, #8a361f, #974327);
+    transform: scale(1.05) rotate(-1deg);
+}

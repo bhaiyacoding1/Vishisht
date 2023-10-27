@@ -14,9 +14,14 @@
 				</div>
 			</section>
 			<!-- End banner Area -->	
+
+
+			<!-- new -->
+			<?php include "gallery-a.php"?>
+			<!-- new -->
 				
 			<!-- Start gallery Area -->
-			<section class="gallery-area section-gap">
+			<!-- <section class="gallery-area section-gap">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-7">
@@ -91,12 +96,12 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End gallery Area -->
 													
 
 			<!-- Start cta-two Area -->
-			<section class="cta-two-area">
+			<!-- <section class="cta-two-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-8 cta-left">
@@ -107,6 +112,6 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End cta-two Area -->						    			
 			<?php include "footer.php"?>
