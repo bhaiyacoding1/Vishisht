@@ -33,7 +33,7 @@
 			
 			<!--  *****  Card 1 Starts  *****  -->
 			<div class="item Festivals">
-				<img src="./img/navratri 1.jpg">
+				<img src="./img/navratri 1.png">
 				<div class="overlay">
 					<a href="#">VIEW MORE</a>
 				</div>
@@ -42,7 +42,7 @@
 
 			<!--  *****  Card 2 Starts  *****  -->
 			<div class="item Festivals">
-				<img src="./img/ganpati.jpg">
+				<img src="./img/ganpati.png">
 				<div class="overlay">
 					<a href="#">VIEW MORE</a>
 				</div>
@@ -51,7 +51,7 @@
 
 			<!--  *****  Card 3 Starts  *****  -->
 			<div class="item Events">
-				<img src="./img/15aug.jpg">
+				<img src="./img/15aug.png">
 				<div class="overlay">
 					<a href="#">VIEW MORE</a>
 				</div>
@@ -60,7 +60,7 @@
 
 			<!--  *****  Card 4 Starts  *****  -->
 			<div class="item Events">
-				<img src="./img/convocation.jpg">
+				<img src="./img/convocation.png">
 				<div class="overlay">
 					<a href="#">VIEW MORE</a>
 				</div>
@@ -69,7 +69,7 @@
 
 			<!--  *****  Card 5 Starts  *****  -->
 			<div class="item Events">
-				<img src="./img/induction.jpg">
+				<img src="./img/induction.png">
 				<div class="overlay">
 					<a href="#">VIEW MORE</a>
 				</div>
@@ -78,7 +78,7 @@
 
 			<!--  *****  Card 6 Starts  *****  -->
 			<div class="item Travel">
-				<img src="./img/industry.jpg">
+				<img src="./img/industry.png">
 				<div class="overlay">
 					<a href="#">VIEW MORE</a>
 				</div>
