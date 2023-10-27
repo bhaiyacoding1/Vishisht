@@ -29,6 +29,7 @@
 			<link rel="stylesheet" href="css/owl.carousel.css">			
 			<link rel="stylesheet" href="css/jquery-ui.css">			
 			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="css/style.css">
 
 			<link rel="stylesheet" href="hello.css">
 		</head>

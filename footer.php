@@ -1,5 +1,5 @@
 <!-- start footer Area -->		
-<footer class="footer-area section-gap">
+<footer class="footer-area section-gap ">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-2 col-md-6 col-sm-6">
